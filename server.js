@@ -5,7 +5,7 @@ const quoteRoutes = require('./app/routes/quote.routes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const MONGO_URI = 'MONGODBURL'; // Ganti dengan URL MongoDB Anda
+const MONGO_URI = process.env.MONGO_URI; // Ganti dengan URL MongoDB Anda
 
 app.use(express.json());
 
