@@ -1,0 +1,28 @@
+{
+  "name": "express-api",
+  "version": "1.0.0",
+  "description": "Express Api With MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakarmp/express-api"
+  },
+  "author": "zyarexx (rakarmp)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakarmp/express-api/issues"
+  },
+  "homepage": "https://github.com/github.com/rakarmp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
